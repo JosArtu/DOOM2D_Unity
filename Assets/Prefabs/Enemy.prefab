@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6249452715073193444}
   - component: {fileID: 7170052634034291644}
   - component: {fileID: 8357669767776270009}
+  - component: {fileID: 1676091952100807395}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -50,6 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   _speed: 1
   _rotationSpeed: 100
+  _screenBorder: 0
 --- !u!114 &6249452715073193444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,6 +128,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.45
+--- !u!114 &1676091952100807395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314471821913524145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f7eb7441f684da38931ec136c4608d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
+  _damageAmount: 10
 --- !u!1 &5975949071425507160
 GameObject:
   m_ObjectHideFlags: 0
