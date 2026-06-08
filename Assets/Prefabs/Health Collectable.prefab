@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2753437419306627197
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1585385334970671342, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5924368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585385334970671342, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_Size.y
+      value: 0.39325187
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585385334970671342, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.001532197
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585385334970671342, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.000000014901161
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593198823940823886, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593198823940823886, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593198823940823886, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593198823940823886, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593198823940823886, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593198823940823886, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593198823940823886, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593198823940823886, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593198823940823886, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593198823940823886, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384904003962951293, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5875
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384904003962951293, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_Size.y
+      value: 0.38875
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384904003962951293, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5482971d57314b94087e863e528a5f1f, type: 3}
+    - target: {fileID: 7384904003962951293, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680351541434353375, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      propertyPath: m_Name
+      value: Health Collectable
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7680351541434353375, guid: cfa241b47ad694165a348bd688250967, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 777259492569738945}
+  m_SourcePrefab: {fileID: 100100000, guid: cfa241b47ad694165a348bd688250967, type: 3}
+--- !u!1 &5521478798045591202 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7680351541434353375, guid: cfa241b47ad694165a348bd688250967, type: 3}
+  m_PrefabInstance: {fileID: 2753437419306627197}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &777259492569738945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5521478798045591202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65b4263c481749aab003e048cd03469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthCollectableBehavior
+  _healthAmount: 10
